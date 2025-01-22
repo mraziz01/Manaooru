@@ -11,8 +11,8 @@ export default {
         Birthstone:[''],
       },
       colors: {
-      'custom-bg': '#50596A',
-      'custom-sndclr': 'red', //  custom color name and hex code
+      'custom-bg': '#4A4947 ',
+      'custom-sndclr': '#B17457', //  custom color name and hex code
     },
   },
   },

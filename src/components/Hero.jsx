@@ -2,6 +2,7 @@ import backgroundImage from "../assets/restnt.jpg"; // Import the new background
 import Footer from "./constant/Footer";
 import Nav from "./constant/Nav";
 import ContactUs from "./ContactUs";
+import Counting from "./Counting";
 import MotionClientList from "./MotionClientList";
 import StorySection from "./StorySection";
 
@@ -36,8 +37,10 @@ const Hero = () => {
       </div>
       <StorySection />
       <MotionClientList />
+      <Counting ></Counting>
       <ContactUs />
       <Footer />
+  
     </>
   );
 };

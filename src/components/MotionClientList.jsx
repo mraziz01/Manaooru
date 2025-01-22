@@ -30,7 +30,7 @@ const MarqueeItem = ({ items, from, to }) => {
         className="font-satisfy flex flex-shrink-0"
       >
         {items.map((item, index) => (
-          <span className="text-gray-600 text-lg font-semibold mx-10" key={index}>
+          <span className="text-gray-600 text-2xl font-semibold mx-10 mb-4" key={index}>
             {item}
           </span>
         ))}
@@ -44,7 +44,7 @@ const MarqueeItem = ({ items, from, to }) => {
         className="font-satisfy flex flex-shrink-0"
       >
         {items.map((item, index) => (
-          <span className="text-gray-600 text-lg font-semibold mx-10" key={index}>
+          <span className="text-gray-600 text-2xl font-semibold mx-10 mt-4" key={index}>
             {item}
           </span>
         ))}
@@ -61,7 +61,7 @@ const MotionClientList = () => {
     </h2>
 
     {/* Container for Marquee */}
-    <div className="w-full mx-auto py-5">
+    <div className="w-full mx-auto py-5 ">
       {/* Upper Marquee Line (Left to Right) */}
       <MarqueeItem items={clients} from={0} to={"-100%"} />
 

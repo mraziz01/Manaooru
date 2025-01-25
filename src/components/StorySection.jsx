@@ -11,10 +11,12 @@ const StorySection = () => {
             Our Story
           </h2>
           <p className="text-lg text-gray-600">
-            It all started while I was visiting my sister upon her childbirth & I noticed a service company managing her hospital room for guest hospitality service. I went exploring the idea in a deeper way & I started with 9 employees back in 2009. I found hard time initiating the first contract.
+          Established in 2013, creativity services for hospitality and cleaning has grown into a trusted provider of manpower and cleaning solutions in Doha, Qatar. Initially inspired by the need for reliable and professional services in the hospitality sector, we began with a small but passionate team.
+<br />
+From our humble beginnings, we focused on delivering exceptional staffing and cleaning services tailored to the unique needs of hotels, restaurants, offices, and homes. Our expertise spans from providing skilled waitstaff and chefs to comprehensive cleaning services, ensuring pristine spaces and smooth operations for our clients.
             <br />
             <br />
-            I offered my employees free of charge to Ritz Carlton for training then the 5 stars Hotel became my first customer, i.e. I managed to pull demand for my services offered.
+            At creativity services for hospitality and cleaning, we take pride in being a part of our clients’ success stories, delivering services that exceed expectations and set new benchmarks in the industry.
           </p>
         </div>
 

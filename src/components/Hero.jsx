@@ -6,6 +6,7 @@ import Nav from "./constant/Nav";
 import ContactUs from "./ContactUs";
 import Counting from "./Counting";
 import MotionClientList from "./MotionClientList";
+import Services from "./Services";
 import StorySection from "./StorySection";
 
 const Hero = () => {
@@ -42,6 +43,7 @@ const Hero = () => {
       <MotionClientList />
       <Counting ></Counting>
       <AboutUs />
+      <Services />
       <ContactUs />
       <Footer />
   

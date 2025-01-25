@@ -38,7 +38,7 @@ const Section = ({ heading, image, description }) => {
         isVisible ? "translate-y-0 opacity-100 transition-all duration-1000" : "translate-y-10"
       }`}
     >
-      <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4">
+      <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4">
         {heading}
       </h3>
       <img
@@ -57,7 +57,7 @@ function About() {
   return (
     <>
       <div id="About" className="py-12 bg-gray-50">
-        <h2 className="text-center text-2xl md:text-4xl font-satisfy font-bold text-gray-700 mb-12">
+        <h2 className="text-center font-satisfy text-3xl md:text-4xl font-bold text-gray-800 mb-12">
           About Us
         </h2>
 

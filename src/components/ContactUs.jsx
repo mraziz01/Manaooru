@@ -1,71 +1,90 @@
 import React from "react";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { IoLocationSharp } from "react-icons/io5";
+import ab1 from "../assets/ab1.jpg";
+import ab2 from "../assets/ab2.jpg";
+import ab3 from "../assets/ab3.jpg";
 
 const ContactUs = () => {
   return (
-    <div id="contact-us" className="min-h-screen bg-custom-bg flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-3xl w-full bg-white shadow-md rounded-lg p-6">
-        {/* Page Heading */}
-        <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-          Contact Us
-        </h2>
+    <div id="contact-us">
+      {/* text */}
+      <div className="text-center pt-10 pb-10 space-y-5 p-5 sm:max-w-[520px] sm:m-auto ">
+        <h2 className="font-satisfy text-3xl md:text-4xl font-bold text-gray-800">CONTACT US</h2>
+        <p>
+        For more information about our services or to request a customized quote, please contact us
+        </p>
+      </div>
 
-        {/* Contact Form */}
-        <form className="space-y-6">
-          {/* Name and Email Row */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {/* Name Input */}
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Your Name"
-                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-              />
-            </div>
+      {/* icon and img */}
+      <div className="m-0 md:grid md:grid-cols-3 md:max-w-full md:m-auto">
 
-            {/* Email Input */}
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="you@example.com"
-                className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-              />
-            </div>
+        {/* Contact Email */}
+        <div className="w-[100%] h-[100%]">
+          <img className="w-[100%] h-[100%]" src={ab1} alt="Contact" />
+        </div>
+
+        <div className="bg-custom-bg text-white text-center space-y-2 p-5 lg:pt-[20%]">
+          <div className="h-12 w-12  text-center text-4xl p-0.5 m-auto ">
+            <a href="mailto:creativityservicesforcleaning@gmail.com">
+              <IoIosMail />
+            </a>
           </div>
-
-          {/* Message Input */}
+          <h2 className="font-bold text-[#c0c0c0]">CONTACT US</h2>
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows="6"
-              placeholder="Your Message"
-              className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-            ></textarea>
+            <a href="mailto:creativityservicesforcleaning@gmail.com">
+              creativityservicesforcleaning@gmail.com
+            </a>
           </div>
+        </div>
 
-          {/* Submit Button */}
-          <div>
-            <button
-              type="submit"
-              className="w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-custom-bg hover:bg-custom-sndclr focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            >
-              Send Message
-            </button>
+        {/* Location */}
+        <div className="w-[100%] h-[100%]">
+          <img className="w-[100%] h-[100%]" src={ab3} alt="Location" />
+        </div>
+
+        <div className="bg-custom-bg text-white text-center space-y-2 p-5 lg:pt-[20%]">
+          <div className="h-12 w-12 text-center text-4xl p-0.5 m-auto ">
+            <a href="https://www.google.com/maps?q=Doha,+Qatar">
+              <IoLocationSharp />
+            </a>
           </div>
-        </form>
+          <h2 className="font-bold text-[#c0c0c0]">LOCATION</h2>
+          <div>
+            Doha, Qatar
+          </div>
+        </div>
+
+        {/* Call Us */}
+        <div className="w-[100%] h-[100%]">
+          <img className="w-[100%] h-[100%]" src={ab2} alt="Phone" />
+        </div>
+
+        <div className="bg-custom-bg text-white text-center space-y-2 p-5 lg:pt-[10%]">
+        <div className="h-12 w-12  text-center text-4xl p-0.5 m-auto ">
+            <a href="tel:+97439926663">
+              <FaPhoneAlt />
+            </a>
+          </div>
+          <h2 className="font-bold text-[#c0c0c0]">CALL US</h2>
+  <div className="space-y-2">
+    <div>
+      <p className="font-semibold">Almas Ahmed Mohammad</p>
+      <a href="tel:+97439926663" className="">+974 3992 6663</a>
+    </div>
+    <div>
+      <p className="font-semibold">Mohammed Iliyas</p>
+      <a href="tel:+97477830398" className="">+974 7783 0398</a>
+    </div>
+    <div>
+      <p className="font-semibold">Idrees Mohammed</p>
+      <a href="tel:+97450476519" className="">+974 5047 6519</a>
+    </div>
+  </div>
+</div>
+
+
       </div>
     </div>
   );

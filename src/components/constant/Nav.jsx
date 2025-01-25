@@ -57,13 +57,13 @@ const Nav = () => {
           <li className="my-4 py-4 text-white hover:rounded cursor-pointer font-bold">Customers</li>
         </Link>
         <Link
-          to="satisfaction"
+          to="Services"
           smooth={true}
           duration={500}
           offset={-70}
           onClick={() => setClick(false)}
         >
-          <li className="my-4 py-4 text-white hover:rounded cursor-pointer font-bold">Satisfaction</li>
+          <li className="my-4 py-4 text-white hover:rounded cursor-pointer font-bold">Services</li>
         </Link>
         <Link
           to="contact-us"
@@ -109,9 +109,9 @@ const Nav = () => {
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-custom-sndclr group-hover:w-full transition-all"></span>
               </li>
             </Link>
-            <Link to="satisfaction" smooth={true} duration={500} offset={-70}>
+            <Link to="Services" smooth={true} duration={500} offset={-70}>
               <li className="relative group cursor-pointer">
-                Satisfaction
+              Services
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-custom-sndclr group-hover:w-full transition-all"></span>
               </li>
             </Link>

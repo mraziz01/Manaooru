@@ -22,7 +22,7 @@ export default function Services() {
           ></motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-10">
             <motion.img 
-              src={img1} 
+              src={img2} 
               alt="Hospitality Service" 
               className="rounded-2xl shadow-lg w-3/4 mx-auto"
               initial={{ x: -100, opacity: 0 }}
@@ -73,7 +73,7 @@ export default function Services() {
               </p>
             </motion.div>
             <motion.img 
-              src={img2} 
+              src={img1} 
               alt="Cleaning Service" 
               className="rounded-2xl shadow-lg w-3/4 mx-auto order-1 md:order-2"
               initial={{ x: 100, opacity: 0 }}

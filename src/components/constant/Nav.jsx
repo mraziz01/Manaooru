@@ -30,7 +30,7 @@ const Nav = () => {
     <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-custom-bg transition">
       <ul className="text-center text-xl cursor-pointer">
         <Link
-          to="about-us"
+          to="About"
           smooth={true}
           duration={500}
           offset={-70}
@@ -85,13 +85,13 @@ const Nav = () => {
       }`}
     >
       <div className="flex justify-between items-center z-50 text-white lg:py-5 px-5 sm:px-20 py-4">
-        <div className="flex items-center">
-          <img src={logo} className="w-11 mr-2" alt="logo" />
+        <div className="flex items-center cursor-pointer">
+         <Link to="/" smooth={true} duration={500} offset={-70}><img src={logo} className="w-11 mr-2" alt="logo" /></Link>
         </div>
 
         <div className="hidden lg:flex lg:flex-1 items-center justify-end font-normal">
           <ul className="flex gap-8 text-[18px] font-bold">
-            <Link to="about-us" smooth={true} duration={500} offset={-70}>
+            <Link to="About" smooth={true} duration={500} offset={-70}>
               <li className="relative group cursor-pointer">
                 About Us
                 <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-custom-sndclr group-hover:w-full transition-all"></span>

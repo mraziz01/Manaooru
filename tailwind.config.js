@@ -12,7 +12,7 @@ export default {
       },
       colors: {
       'custom-bg': '#4A4947 ',
-      'custom-sndclr': '#B17457', //  custom color name and hex code
+      'custom-sndclr': '#8E1616', //  custom color name and hex code
     },
   },
   },

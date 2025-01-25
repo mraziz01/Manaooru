@@ -1,4 +1,6 @@
 import backgroundImage from "../assets/restnt.jpg"; // Import the new background image
+import About from "./About";
+import AboutUs from "./AboutUs";
 import Footer from "./constant/Footer";
 import Nav from "./constant/Nav";
 import ContactUs from "./ContactUs";
@@ -10,7 +12,7 @@ const Hero = () => {
   return (
     <>
       <Nav />
-      <div className="relative h-screen w-full flex items-center justify-center text-white">
+      <div id="/" className="relative h-screen w-full flex items-center justify-center text-white">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -36,8 +38,10 @@ const Hero = () => {
         </div>
       </div>
       <StorySection />
+      <About />
       <MotionClientList />
       <Counting ></Counting>
+      <AboutUs />
       <ContactUs />
       <Footer />
   

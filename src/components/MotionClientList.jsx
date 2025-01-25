@@ -55,7 +55,7 @@ const MarqueeItem = ({ items, from, to }) => {
 
 const MotionClientList = () => {
   return (
-    <div id="customers" className="overflow-hidden">
+    <div id="customers" className="overflow-hidden bg-gray-50">
     <h2 className="text-center text-2xl md:text-4xl font-satisfy font-bold text-gray-700 m-8">
       Our Customers
     </h2>

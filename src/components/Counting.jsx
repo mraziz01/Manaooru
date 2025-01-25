@@ -73,12 +73,12 @@ const Counting = () => {
   ];
 
   return (
-    <div className="p-6 flex items-center justify-center min-h-screen bg-gray-50">
+    <div className="p-6 flex items-center justify-center bg-gray-50">
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {stats.map((stat, index) => (
           <div
             key={index}
-            className={`stat-item flex flex-col items-center justify-around w-56 h-56 bg-custom-bg rounded-md border border-gray-100 shadow-md relative ${stat.border}`}
+            className={`stat-item flex flex-col items-center justify-around w-40 h-40 sm:w-56 sm:h-56 bg-custom-bg rounded-md border border-gray-100 shadow-md relative ${stat.border}`}
           >
             {stat.icon}
             <span

@@ -8,6 +8,7 @@ import Counting from "./Counting";
 import MotionClientList from "./MotionClientList";
 import Services from "./Services";
 import StorySection from "./StorySection";
+import HtlyServices from "./HtlyServices";
 
 const Hero = () => {
   return (
@@ -43,6 +44,7 @@ const Hero = () => {
       <MotionClientList />
       <Counting ></Counting>
       <AboutUs />
+      <HtlyServices />
       <Services />
       <ContactUs />
       <Footer />

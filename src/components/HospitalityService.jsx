@@ -1,6 +1,6 @@
 import React from "react";
 import hs1 from "../assets/hs1.jpeg";
-import hs2 from "../assets/hs2.JPG";
+import hs2 from "../assets/hs2.jpg";
 import hs3 from "../assets/hs3.jpg";
 
 const HospitalityService = () => {

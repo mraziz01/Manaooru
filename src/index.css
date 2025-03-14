@@ -3,3 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-pagination-bullet {
+  @apply bg-white/50 transition-all hover:bg-white;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply text-white transition-all after:text-2xl;
+}

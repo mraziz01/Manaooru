@@ -1,92 +1,118 @@
 import React from "react";
-import { FaPhoneAlt } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-import { IoLocationSharp } from "react-icons/io5";
-import ab1 from "../assets/ab1.jpg";
-import ab2 from "../assets/ab2.jpg";
-import ab3 from "../assets/ab3.jpg";
+import { FaPhoneAlt, FaMapMarkerAlt, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <div id="contact-us">
-      {/* text */}
-      <div className="text-center pt-10 pb-10 space-y-5 p-5 sm:max-w-[520px] sm:m-auto ">
-        <h2 className="font-satisfy text-3xl md:text-4xl font-bold text-gray-800">CONTACT US</h2>
-        <p>
-        For more information about our services or to request a customized quote, please contact us
-        </p>
-      </div>
-
-      {/* icon and img */}
-      <div className="m-0 md:grid md:grid-cols-3 md:max-w-full md:m-auto">
-
-        {/* Contact Email */}
-        <div className="w-[100%] h-[100%]">
-          <img className="w-[100%] h-[100%]" src={ab1} alt="Contact" />
+    <section id="contact-us" className="bg-white py-16">
+      
+      <div className="container mx-auto px-4">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
+            Get in Touch
+          </h2>
+          <p className="text-gray-600 md:text-lg max-w-xl mx-auto">
+            Reach out to us for any inquiries or to schedule our premium cleaning services
+          </p>
         </div>
-
-        <div className="bg-custom-bg text-white text-center space-y-2 p-5 lg:pt-[20%]">
-          <div className="h-12 w-12  text-center text-4xl p-0.5 m-auto ">
-            <a href="mailto:creativityservicesforcleaning@gmail.com">
-              <IoIosMail />
-            </a>
-          </div>
-          <h2 className="font-bold text-[#c0c0c0]">CONTACT US</h2>
-          <div>
-            <a href="mailto:creativityservicesforcleaning@gmail.com">
-              creativityservicesforcleaning@gmail.com
-            </a>
-          </div>
-        </div>
-
-        {/* Location */}
-        <div className="w-[100%] h-[100%]">
-          <img className="w-[100%] h-[100%]" src={ab3} alt="Location" />
-        </div>
-
-        <div className="bg-custom-bg text-white text-center space-y-2 p-5 lg:pt-[20%]">
-          <div className="h-12 w-12 text-center text-4xl p-0.5 m-auto ">
-            <a href="https://www.google.com/maps?q=Doha,+Qatar">
-              <IoLocationSharp />
-            </a>
-          </div>
-          <h2 className="font-bold text-[#c0c0c0]">LOCATION</h2>
-          <div>
-            Doha, Qatar
-          </div>
-        </div>
-
-        {/* Call Us */}
-        <div className="w-[100%] h-[100%]">
-          <img className="w-[100%] h-[100%]" src={ab2} alt="Phone" />
-        </div>
-
-        <div className="bg-custom-bg text-white text-center space-y-2 p-5 lg:pt-[10%]">
-        <div className="h-12 w-12  text-center text-4xl p-0.5 m-auto ">
-            <a href="tel:+97439926663">
-              <FaPhoneAlt />
-            </a>
-          </div>
-          <h2 className="font-bold text-[#c0c0c0]">CALL US</h2>
-  <div className="space-y-2">
-    <div>
-      <p className="font-semibold">Almas Ahmed Mohammad</p>
-      <a href="tel:+97439926663" className="">+974 3992 6663</a>
-    </div>
-    <div>
-      <p className="font-semibold">Mohammed Iliyas</p>
-      <a href="tel:+97477830398" className="">+974 7783 0398</a>
-    </div>
-    <div>
-      <p className="font-semibold">Idrees Mohammed</p>
-      <a href="tel:+97450476519" className="">+974 5047 6519</a>
-    </div>
-  </div>
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 max-w-6xl mx-auto p-4 bg-gray-50 rounded-xl border border-gray-200">
+  <p className="text-gray-600 text-center md:text-left text-sm md:text-base flex-1">
+    For instant assistance, message us directly on WhatsApp
+  </p>
+  
+  {/* WhatsApp Button */}
+  <a 
+    href="https://wa.me/97450476519" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="w-full md:w-auto bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg flex items-center justify-center gap-3 transition-all duration-300 shadow-sm hover:shadow-md"
+    aria-label="Chat with us on WhatsApp"
+  >
+    <FaWhatsapp className="text-xl shrink-0" />
+    <span className="font-semibold text-sm md:text-base">
+      Chat Now
+    </span>
+  </a>
 </div>
+        {/* Contact Cards Grid */}
+        <div className="mt-9 grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {/* Email Card */}
+          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+            <div className="flex items-start gap-4">
+              <div className="bg-blue-100 p-3 rounded-lg">
+                <FaEnvelope className="text-blue-600 text-xl" />
+              </div>
+              <div className="flex-1 min-w-0"> {/* Added min-w-0 for text truncation */}
+                <h3 className="text-lg font-semibold mb-2">Email Us</h3>
+                <a
+                  href="mailto:idrees@creativityservicesforhospitality.com"
+                  className="text-gray-600 hover:text-blue-600 transition-colors text-sm md:text-base break-words"
+                >
+                  Idrees@creativityservicesforhospitality.com
+                </a>
+              </div>
+            </div>
+          </div>
 
+          {/* Location Card */}
+          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+            <div className="flex items-start gap-4">
+              <div className="bg-blue-100 p-3 rounded-lg">
+                <FaMapMarkerAlt className="text-blue-600 text-xl" />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-2">Our Location</h3>
+                <p className="text-gray-600 text-sm md:text-base">Doha, Qatar</p>
+                <a
+                  href="https://www.google.com/maps?q=Doha,+Qatar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-700 mt-2 inline-block text-sm md:text-base"
+                >
+                  View on Map
+                </a>
+              </div>
+            </div>
+          </div>
 
+          {/* Phone Card */}
+          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+            <div className="flex items-start gap-4">
+              <div className="bg-blue-100 p-3 rounded-lg">
+                <FaPhoneAlt className="text-blue-600 text-xl" />
+              </div>
+              <div className="w-full">
+                <h3 className="text-lg font-semibold mb-2">Call Us</h3>
+                <div className="space-y-2">
+                  <div>
+                    <p className="font-medium text-gray-700 text-sm md:text-base">Almas Ahmed Mohammad</p>
+                    <a href="tel:+97439926663" className="text-gray-600 hover:text-blue-600 text-sm md:text-base">
+                      +974 3992 6663
+                    </a>
+                  </div>
+                  <div>
+                    <p className="font-medium text-gray-700 text-sm md:text-base">Mohammed Iliyas</p>
+                    <a href="tel:+97477830398" className="text-gray-600 hover:text-blue-600 text-sm md:text-base">
+                      +974 7783 0398
+                    </a>
+                  </div>
+                  <div>
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <p className="font-medium text-gray-700 text-sm md:text-base">Idrees Mohammed</p>
+                        <a href="tel:+97450476519" className="text-gray-600 hover:text-blue-600 text-sm md:text-base">
+                          +974 5047 6519
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -82,7 +82,7 @@ const Counting = () => {
           >
             {stat.icon}
             <span
-              className="num text-white font-bold text-5xl flex items-center justify-center"
+              className="num text-white font-bold text-5xl flex items-center justify-center font-satisfy"
             >
               {stat.value}
             </span>

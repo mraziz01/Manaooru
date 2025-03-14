@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import img2 from "../assets/2.png";
+import img2 from "../assets/2.webp";
 import HospitalityService from './HospitalityService';
 
 export default function HtlyServices() {

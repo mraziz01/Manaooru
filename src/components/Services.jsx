@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import img1 from "../assets/1.png";
-import img2 from "../assets/2.png";
+import img1 from "../assets/1.webp";
+import img2 from "../assets/2.webp";
 import CleaningServic from './CleaningServic';
 import HospitalityService from './HospitalityService';
 

@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className="bg-white py-10 px-5 sm:px-20">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center md:items-start text-center md:text-left">
         {/* Logo Section */}
-        <div className="flex flex-col items-center mb-8 md:mb-0">
-          <img src={logo} alt="logo" className="w-28 mb-2" />
+        <div className="font-satisfy text-xl sm:text-2xl md:text-3xl font-extrabold mb-8">
+           ಮಣೂರು
         </div>
 
         {/* Social Media Links */}
@@ -32,7 +32,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="border-t border-custom-sndclr mt-8 pt-4 text-center">
-        <p className="text-gray-600 text-sm">Creativity Hospitality and Cleaning Services © 2025. All rights reserved.</p>
+        <p className="text-gray-600 text-sm">  మన ఊరు - Manaooru © 2025. All rights reserved.</p>
       </div>
     </footer>
   );

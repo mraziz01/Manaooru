@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import img1 from "../assets/img1.webp";
-import img2 from "../assets/img2.webp";
-import img3 from "../assets/img3.webp";
+import img1 from "../assets/farmer-gt.jpg";
+import img2 from "../assets/seeding.jpg";
+import img3 from "../assets/farmer-an.jpg";
 
 // Reusable Section Component with Animation
 const Section = ({ heading, image, description }) => {
@@ -58,32 +58,25 @@ function About() {
     <>
       <div id="About" className="py-12 bg-gray-50">
         <h2 className="text-center font-satisfy text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-          About Us
+         Village Essence
         </h2>
 
         <div className="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0 items-center justify-center">
           {/* Render Sections */}
           <Section
-            heading="Our Aspiration"
+            heading="Our Culture"
             image={img1}
-            description="To establish ourselves as the premier provider of hospitality and
-            cleaning services in Qatar, setting benchmarks for excellence,
-            innovation, and pristine standards."
+            description="Manaooru's vibrant traditions come alive through folk dances, harvest festivals, and age-old rituals that bind our community across generations, preserving our unique heritage."
           />
           <Section
-            heading="Our Purpose"
+            heading="Our People"
             image={img2}
-            description="To elevate hospitality and cleaning standards to their highest
-            potential, ensuring we exceed the expectations of all our
-            stakeholders."
+            description="Warm and resilient, Manaooru's residents embody the spirit of rural India - farmers waking with the sun, artisans crafting with ancestral skills, and families rooted in community values."
           />
           <Section
-            heading="Our Principles"
+            heading="Our Land"
             image={img3}
-            description="From the beginning of our journey in the hospitality and cleaning
-            sectors, our principles have guided our commitment to delivering
-            unforgettable experiences, pristine spaces, and unparalleled
-            service to our clients."
+            description="Fertile black soil nurtured by monsoon rains yields abundant harvests of rice, sugarcane, and jowar, forming the agricultural heartbeat of our village life and traditions."
           />
         </div>
       </div>

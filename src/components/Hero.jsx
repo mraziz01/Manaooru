@@ -1,12 +1,7 @@
-import backgroundImage from "../assets/restnt.jpg"; // Import the new background image
+import backgroundImage from "../assets/field.jpg"; // Import the new background image
 import About from "./About";
-import AboutUs from "./AboutUs";
 import Footer from "./constant/Footer";
-import Nav from "./constant/Nav";
-import ContactUs from "./ContactUs";
-import Counting from "./Counting";
-import MotionClientList from "./MotionClientList";
-import Services from "./Services";
+import Nav from "./constant/Nav"; 
 import StorySection from "./StorySection";
 import HtlyServices from "./HtlyServices";
 
@@ -30,23 +25,18 @@ const Hero = () => {
         <div className="relative z-10 text-center px-5 sm:px-20">
           {/* Company Name */}
           <h1 className="font-satisfy text-4xl sm:text-5xl md:text-6xl font-extrabold mb-8">
-            Creativity Hospitality and Cleaning Services
+            మన ఊరు - Manaooru
           </h1>
 
           {/* Slogan */}
           <h2 className="text-xl sm:text-2xl md:text-3xl font-medium mb-6">
-            Enhancing spaces with creativity, care, and cleanliness.
+           Village where traditions thrive and nature comes alive
           </h2>
         </div>
       </div>
       <StorySection />
       <About />
-      <MotionClientList />
-      <Counting ></Counting>
-      <AboutUs />
       <HtlyServices />
-      <Services />
-      <ContactUs />
       <Footer />
   
     </>

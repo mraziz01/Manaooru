@@ -1,5 +1,5 @@
 import React from "react";
-import storyImage from "../assets/story.jpg"; // Import the image
+import storyImage from "../assets/farmer-gt2.jpg"; // Import the image
 
 const StorySection = () => {
   return (
@@ -8,15 +8,16 @@ const StorySection = () => {
         {/* Text Section */}
         <div className="text-center lg:text-left">
           <h2 className="font-satisfy text-3xl md:text-4xl font-bold text-gray-800 mb-11">
-            Our Story
+            Our Village Heritage
           </h2>
           <p className="text-lg text-gray-600">
-          Established in 2013, creativity services for hospitality and cleaning has grown into a trusted provider of manpower and cleaning solutions in Doha, Qatar. Initially inspired by the need for reliable and professional services in the hospitality sector, we began with a small but passionate team.
-<br />
-From our humble beginnings, we focused on delivering exceptional staffing and cleaning services tailored to the unique needs of hotels, restaurants, offices, and homes. Our expertise spans from providing skilled waitstaff and chefs to comprehensive cleaning services, ensuring pristine spaces and smooth operations for our clients.
+           Nestled amidst fertile fields and flowing rivers, Manaooru has been a cradle of rural life for centuries. Our village traces its roots back to ancient farming communities that first settled these lands, drawn by the rich black soil and abundant water sources.
             <br />
             <br />
-            At creativity services for hospitality and cleaning, we take pride in being a part of our clients’ success stories, delivering services that exceed expectations and set new benchmarks in the industry.
+            Generations of farmers have tended these fields, developing unique cultivation techniques passed down through oral traditions. The rhythm of village life flows with the seasons - from the vibrant hues of sowing festivals to the golden celebrations of harvest.
+            <br />
+            <br />
+            At night, our village transforms under starlit skies. Fishermen set out on moonlit waters while elders share folklore around crackling bonfires. This harmony between land, water, and community defines the soul of Manaooru.
           </p>
         </div>
 
